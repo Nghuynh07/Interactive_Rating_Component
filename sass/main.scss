@@ -1,0 +1,145 @@
+@use "base.scss";
+@use "typography.scss";
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: base.$very-dark-blue;
+  display: grid;
+  grid-template-columns: 38rem;
+  grid-template-rows: 45em;
+  place-content: center;
+
+  .wrapper {
+    margin: 2rem;
+    background-color: base.$color-dark;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+    display: grid;
+
+    &-star {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-color: rgba(base.$medium-gray, 0.15);
+      display: grid;
+      place-items: center;
+    }
+
+    &-content {
+      justify-self: start;
+      display: grid;
+    }
+
+    &-heading {
+      font-size: 2.5rem;
+      color: base.$color-white;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      text-shadow: 0.1rem 0.1rem 0.1rem rgba(base.$color-dark, 0.3);
+    }
+
+    &-text {
+      color: base.$light-gray;
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
+
+    &-stars {
+      display: flex;
+      justify-content: space-between;
+      align-self: end;
+    }
+
+    &-btn {
+      display: grid;
+      place-content: center;
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: 50%;
+      background-color: rgba(base.$medium-gray, 0.13);
+      color: base.$light-gray;
+      transition: background-color 0.2s, color 0.2s;
+      cursor: pointer;
+      &:hover {
+        background-color: base.$light-gray;
+        color: base.$color-white;
+      }
+    }
+
+    form {
+      margin-top: 3rem;
+    }
+
+    &-submit-btn {
+      display: grid;
+      place-content: center;
+      border-radius: 10rem;
+      width: 100%;
+      height: 3.5rem;
+      background-color: hsl(25, 95%, 53%);
+      color: base.$color-white;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      align-self: end;
+      font-size: 1.2rem;
+      transition: background-color 0.2s, color 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: base.$color-white;
+        color: hsl(25, 95%, 53%);
+      }
+    }
+  }
+
+  .thankyou {
+    background-color: base.$color-dark;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    padding: 5rem;
+
+    display: none;
+    place-items: center;
+
+    &-img-wrapper {
+    }
+
+    &-content {
+      width: max-content;
+      padding: 0.7rem 2.5rem;
+      border-radius: 10rem;
+      background-color: rgba(base.$medium-gray, 0.15);
+
+      h3 {
+        font-size: 1.4rem;
+        color: hsl(25, 60%, 53%);
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+      }
+    }
+    h1 {
+      color: base.$color-white;
+      letter-spacing: 0.2rem;
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    &-text-wrapper {
+      text-align: center;
+
+      p {
+        color: base.$light-gray;
+        font-size: 1.4rem;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .active {
+    color: base.$color-white;
+    background-color: hsl(25, 95%, 53%);
+  }
+}
