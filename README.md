@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](solution_images/desktop.png)
-![Active State](solution_images/active_state.png)
+![Active State](solution_images/active-state.png)
 ![Hover State](solution_images/hover-state.png)
 ![Desktop Thank You](solution_images/desktop_thankyou.png)
 ![Mobile](solution_images/mobile.png)
