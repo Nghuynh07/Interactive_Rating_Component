@@ -34,5 +34,5 @@ const star = (e) => {
   });
 };
 
-form.addEventListener("submit", star.bind());
+form.addEventListener("submit", star);
 localStorage.clear();

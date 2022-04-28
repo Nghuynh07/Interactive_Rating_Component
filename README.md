@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Nghuynh07/Interactive_Rating_Component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://6268d9933f323459f88242f7--glowing-strudel-c28f1b.netlify.app/)
 
 ### Built with
 
@@ -56,4 +56,4 @@ I started to use SASS for this project. I learned that when a star is clicked it
 
 - Website - [Huynh Nguyen](https://huynhtn.com/)
 - Frontend Mentor - [@Nghuynh07](https://www.frontendmentor.io/profile/Nghuynh07)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@huyniewin](https://twitter.com/huyniewin)
